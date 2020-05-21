@@ -41,6 +41,11 @@ class Airplane {
 */
 
 class Person {
+  constructor(attributes){
+    this.name = attributes.name,
+    this.age = attributes.age,
+    this.stomach = []
+  }
 
 }
 
